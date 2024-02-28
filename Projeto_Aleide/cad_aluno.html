@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Alunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .aluno {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .aluno img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .aluno h2 {
+            margin-top: 0;
+        }
+
+        .aluno p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="proc_cad_alu.php" method="post">
+    <div class="container">
+        <h1>Dashboard de Alunos</h1>
+        <div class="alunos-container">
+            <!-- Aluno 1 -->
+            <div class="aluno">
+                <img src="foto1.jpg" alt="Foto do Aluno 1">
+                <h2>Características</h2>
+                <input type="text" name="cara" id="">
+                <h2>Problema</h2>
+                <p>Problema do Aluno 1...</p>
+                <input type="text" name="pro" id="">
+                <p>Turma do Aluno 1...</p>
+                <input type="text" name="turma" id="">
+            </div>
+            <!-- Aluno 2 -->
+            <div class="aluno">
+                <img src="foto1.jpg" alt="Foto do Aluno 1">
+                <h2>Características</h2>
+                <input type="text" name="cara" id="">
+                <h2>Problema</h2>
+                <p>Problema do Aluno 1...</p>
+                <input type="text" name="pro" id="">
+                <p>Turma do Aluno 1...</p>
+                <input type="text" name="turma" id="">
+            </div>
+            <!-- Adicione mais alunos aqui -->
+        </div>
+    </div>
+    <button type="submit" class="enviar mt-3">Cadastrar</button>
+</form>
+</body>
+</html>

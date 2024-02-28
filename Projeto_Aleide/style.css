@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    margin-top: 100px; /* Espaçamento superior */
+}
+
+form {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+label {
+    font-weight: bold; /* Texto em negrito */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 5px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+button.enviar {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+button.enviar:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
