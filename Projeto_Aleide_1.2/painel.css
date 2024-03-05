@@ -1,0 +1,47 @@
+.cont {
+    text-align: center;
+    margin-top: 85px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 29px;
+    padding: 22px;
+    font-family: cursive;
+    color: black;
+    cursor: pointer;
+    margin-right: 85px; /* Afasta a aulta da margem */
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: cursive;
+}
+
+.container {
+    width: 80%; /* Define a largura do container */
+    margin: 0 auto; /* Centraliza o container */
+    background-color: #fff; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.aluno {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
